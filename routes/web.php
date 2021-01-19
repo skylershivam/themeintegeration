@@ -23,3 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
+//Route For Profile
+Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
